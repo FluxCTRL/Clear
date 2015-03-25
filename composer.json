@@ -1,0 +1,17 @@
+{
+    "name": "fluxctrl/clear",
+    "description": "Minimalistic, crisp and clean theme for FluxCTRL.",
+    "homepage": "http://fluxctrl.io",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "fluxctrl/fluxctrl": "dev-master",
+        "gourmet/knp-menu": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "FluxCtrl\\Clear\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
