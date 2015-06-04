@@ -8,7 +8,7 @@ $this->Html->addCrumb(__d('flux_ctrl', "New Subscription"));
     <?php
     echo $this->Form->input('url', [
         'label' => false,
-        'placeholder' => 'http://reddit.com/r/php',
+        'placeholder' => 'http://reddit.com/r/php.rss',
         'class' => 'u-width-half',
     ]);
     ?>
